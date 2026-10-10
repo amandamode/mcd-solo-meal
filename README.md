@@ -7,6 +7,20 @@
 
 ---
 
+## 参赛与合规文件
+
+本项目参加**麦当劳程序员创意开发大赛（M-CODE）**，按活动规则提供以下文件：
+
+| 文件 | 用途 |
+|---|---|
+| [README.md](./README.md) | 项目介绍、安装方法、使用示例、目标用户（本文件） |
+| [CONTEST_DECLARATION.md](./CONTEST_DECLARATION.md) | 参赛声明，使用官方原文，未作任何改动 |
+| [MCP_INTEGRATION.md](./MCP_INTEGRATION.md) | 实际使用的麦当劳 MCP Server、Tool、调用流程与业务价值 |
+| [mcp-config.example.json](./mcp-config.example.json) | 脱敏后的 MCP 配置示例，仅使用环境变量占位符 |
+| [workbuddy.md](./workbuddy.md) | 使用腾讯 WorkBuddy 开发本项目的对话上下文 |
+
+---
+
 ## 为什么做（真实刚需，不是比赛噱头）
 
 - **探店内容加速器被砍**：没人会天天发麦当劳探店，需求前提为假。
@@ -61,7 +75,7 @@ mcd-solo-meal/
 ├── README.md                # 本文件（文件名不可改）
 ├── MCP_INTEGRATION.md       # MCP 集成说明（文件名不可改）
 ├── SKILL.md                 # Skill 指令入口（AI 运行时读取）
-├── workbuddy.md             # 参加 WorkBuddy 专项奖励需导出的对话上下文（由客户端导出）
+├── workbuddy.md             # 参加 WorkBuddy 专项奖励需提交的对话上下文
 ├── src/
 │   ├── memory_store.py      # 记忆层：user_profile.json 读写、忌口/口味/本周去重
 │   ├── recommend.py         # 状态双模式 + 推荐 + 营养筛选
@@ -90,4 +104,4 @@ mcd-solo-meal/
 | CONTEST_DECLARATION.md | 必须，文件名及内容均不可改 | ✅ 已放入官方原文 |
 | MCP_INTEGRATION.md | 必须，文件名不可改 | ✅ 见同目录 |
 | 源代码 | 必须，形式不限 | ✅ src/ 全套 + tests/ |
-| workbuddy.md | 参加 WorkBuddy 专项奖励必须提交 | ⚠️ 由 WorkBuddy 客户端导出对话上下文 |
+| workbuddy.md | 参加 WorkBuddy 专项奖励必须提交 | ✅ 已提交开发对话上下文 |
