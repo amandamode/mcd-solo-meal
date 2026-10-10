@@ -7,20 +7,6 @@
 
 ---
 
-## 参赛与合规文件
-
-本项目参加**麦当劳程序员创意开发大赛（M-CODE）**，按活动规则提供以下文件：
-
-| 文件 | 用途 |
-|---|---|
-| [README.md](./README.md) | 项目介绍、安装方法、使用示例、目标用户（本文件） |
-| [CONTEST_DECLARATION.md](./CONTEST_DECLARATION.md) | 参赛声明，使用官方原文，未作任何改动 |
-| [MCP_INTEGRATION.md](./MCP_INTEGRATION.md) | 实际使用的麦当劳 MCP Server、Tool、调用流程与业务价值 |
-| [mcp-config.example.json](./mcp-config.example.json) | 脱敏后的 MCP 配置示例，仅使用环境变量占位符 |
-| [workbuddy.md](./workbuddy.md) | 使用腾讯 WorkBuddy 开发本项目的对话上下文 |
-
----
-
 ## 为什么做（真实刚需，不是比赛噱头）
 
 - **探店内容加速器被砍**：没人会天天发麦当劳探店，需求前提为假。
