@@ -1,6 +1,20 @@
 ---
 name: mcd-solo-meal
-description: 麦门一人食补给站——给独居/一个人生活人群（含自由职业、一人公司、异地独居青年等）的「今天一个人吃什么」决策与治愈陪伴 Skill。当用户说「今天一个人吃啥」「帮我点一份一个人的饭」「不知道吃啥/不想做饭」「想犒劳自己/今天要点好的」「赶稿到深夜吃点什么」或启动麦当劳一人食流程时触发。调用麦当劳 MCP（now-time-info / query-nearby-stores / query-meals / list-nutrition-foods / query-meal-detail / available-coupons / calculate-price / create-order 等）完成「状态→附近门店→在售餐品→营养筛选与均衡搭配→用券算价→推荐+松弛文案→确认下单」闭环，并本地沉淀用户偏好（忌口/常点/口味）做"记得你"的搭子。
+display_name: 麦门一人食补给站
+display_name_en: McDonald's Solo-Meal Companion
+description: 给独居/一个人生活的人，用麦当劳真实营养数据做「今天吃什么」决策与治愈陪伴；当用户说「今天一个人吃啥」「帮我点一个人的饭」「不知道吃啥/不想做饭」「想犒劳自己」或启动麦当劳一人食流程时触发。
+description_zh: 面向独居、自由职业、一人公司等「一个人生活」人群的麦当劳一人食决策与陪伴 Skill。调用麦当劳 MCP 完成「状态→附近门店→在售餐品→营养筛选与均衡搭配→用券算价→推荐+松弛文案→确认下单」闭环，并本地记忆用户口味偏好，像搭子一样记得你。
+description_en: A McDonald's solo-meal decision and companionship skill for people living alone. It calls the McDonald's MCP to guide users from mood → nearby stores → available items → nutrition-balanced picks → coupon pricing → recommendation with a calming note → confirmed order, and remembers taste preferences locally.
+version: 1.0.0
+author: amandamode
+examples_zh:
+  - "今天一个人吃啥"
+  - "帮我点一份一个人的饭，预算 30 以内"
+  - "深夜赶稿想吃口热的，推一个"
+examples_en:
+  - "What should I eat alone today?"
+  - "Order me a solo meal under 30 yuan"
+  - "It's late and I'm writing—get me something warm"
 ---
 
 # 麦门一人食补给站 (mcd-solo-meal)
